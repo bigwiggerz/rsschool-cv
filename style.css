@@ -1,16 +1,30 @@
-html, body {
-    font-family: Arial, serif;
+body {
+    font-family: OpenSans-Regular;
     font-size: 16px;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-table {
-    border-collapse: collapse;
-}
-table.border td, table.border th {
-    padding: 5px;
-    border: 1px solid #c0c0c0;
-}
-table.border th {
-    background: #e0e0e0;
-}
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: OpenSans-Regular;
+     src: url("assets/fonts/OpenSans-Regular.ttf");
+   }
+   @font-face {
+    font-family: Ubuntu-Regular;
+     src: url("assets/fonts/Ubuntu-Regular.ttf");
+   }
+   .footer {
+
+    border: 1px solid red;
+   }
+   .container {
+    max-width: 1440px;
+    margin: 0 auto;
+   }
