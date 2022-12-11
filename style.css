@@ -12,6 +12,7 @@ body {
     box-sizing: border-box;
   }
 
+
 @font-face {
     font-family: OpenSans-Regular;
      src: url("assets/fonts/OpenSans-Regular.ttf");
@@ -54,7 +55,7 @@ body {
     cursor: pointer;
   }
   .section {
-
+    width: 50%;
   }
   .section-title {
 
@@ -73,4 +74,21 @@ body {
   .header {
 
   }
-  
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .photos {
+    
+  }
+  .p1 {
+
+  }
+  .p2 {
+    
+  }

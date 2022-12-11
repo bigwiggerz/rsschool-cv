@@ -9,11 +9,22 @@
     <link rel="icon" href="assets/favicon.ico">
 </head>
 <body>
-    <img height="400" width="400" src="assets/img/image.jpeg" alt="my photo">
+    <div class="main">
+        <div class="photos">
+            <img height="400" width="400" src="assets/img/image.jpeg" alt="my photo">
+        </div>
+            <h1 class="h1">Evgeniy Kamenko</h1>
+            <h2 class="h2">Student</h2>
+
+    </div>
+        <div class="clearfix"></div>
+
+  
     <header class="header" >
         <nav class="nav">
             <ul class="nav-list">
               <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+
               <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
               <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
               <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
@@ -28,13 +39,47 @@
         <div class="container" > test2</div>
         <section class="section" id="profile">
             <h1 class="section-tittle">Eugene</h1>
-            profile</section>
-        <section class="section" id="contacts">contacts</section>
-        <section class="section" id="summary">summary</section>
-        <section class="section" id="skills">skills</section>
-        <section class="section" id="code">code</section>
-        <section class="section" id="education">education</section>
-        <section class="section" id="english">english</section>
+                <p>Содержимое секций может быть оформлено как элемент p, если это текст, или как ненумерованный список, если секция содержит перечень пунктов.</p>    
+                <p>Если нужно внутри текста выделить какие-то отдельные слова или буквы, используйте элемент span</p>
+            </section>
+        <section class="section" id="contacts"><p class="section-tittle">contacts</p>
+            <p class="p1"><i>Discord:Евген соблазнитель дев#7889</i></p>
+            <p class="p1"><i>Github:@Bigwiggerz</i></p>
+            <p class="p1">Тут должна быть ссылка на linked(нажатием на иконку</p>
+        </section>
+        <section class="section" id="summary"><p class="section-tittle">summary</p>
+            <p>I am a student of the International University "MITSO".</p>
+            <p>My specialty: Information systems and technologies. Now I'm trying to learn the basics of Front-End.</p>
+            <p>My main qualities are the ability to work in a team and the ability to learn quickly.</p>
+        </section>
+        <section class="section" id="skills"><p class="section-tittle">skills</p>
+            <ul id="skills">
+                <li><span>Web-Design</span></li>
+                <li><span>HTML</span></li>
+                <li><span>CSS</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Github</span></li>
+                <li><span>C++</span></li>
+                <li><span>Photoshop</span></li>
+                <li><span>Fl Studio</span></li>
+            </ul>
+        </section>
+        <br>
+        <section class="section" id="code"><p class="section-tittle">code</p>
+            <pre>
+                function multiply(a, b){
+                    a * b
+                  }
+            </pre>
+        </section>
+        <section class="section" id="education"><p class="section-tittle">education</p>
+            <p>International University "MITSO"</p>
+            <p>Specialty: Information systems and technologies</p>
+        </section>
+        <section class="section" id="english"><p class="section-tittle">english</p>
+                <p>Estimated level:</p>
+                <p>B1</p>
+        </section>
     </main>
     <footer class="footer">
 
