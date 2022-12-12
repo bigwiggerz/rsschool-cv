@@ -1,1 +1,1 @@
-https://bigwiggerz.github.io/rsschool-cv/cvW
+https://bigwiggerz.github.io/rsschool-cv/cv
