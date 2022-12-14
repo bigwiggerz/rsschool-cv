@@ -43,12 +43,6 @@ body {
   html {
     scroll-behavior: smooth; 
   }
-  .nav {
-
-  }
-  .nav-item {
-
-  }
   .nav-list {
     list-style: none;
   }
@@ -103,16 +97,18 @@ body {
     padding: 20px;
   }
   .p1 {
-    margin: auto;
+  
   }
   .p2 {
     
   }
   .h1{
     color:#b9b6b6;  
+    text-align: center;
   }
   .h2{
     color:#b9b6b6;  
+    text-align: center;
   }
   .black_line {
     background-color: #202026;
@@ -126,4 +122,15 @@ body {
   flex-direction: left;
   justify-content: space-around;
   }
+ 
+  .rsschool {
+    height: 100px;
+    width: 100px;
+  }
+ .github {
+  height: 1px;
+  width: 1px;
+ }
+
+
  
