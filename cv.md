@@ -9,11 +9,12 @@
 
 ## About me
 
+Passionate and detail-oriented **Front-End developer** with basic skills in HTML, CSS and JavaScript, Strong problem-solving skills and a passion for writing clean, maintainable code.
 
 ## Skills
 
 - HTML
-- CSS/SASS
+- CSS
 - JavaScript (Basic)
 - Git
 
@@ -36,3 +37,4 @@ alert( result );
 
 ## English
 
+- A2+
