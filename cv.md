@@ -33,7 +33,8 @@ alert( result );
 
 ## Education
 
-- **University:** Mitso
+- **University:** Mitso | 2021 - 2025
+    Software Engineering & Economics
 
 ## English
 
